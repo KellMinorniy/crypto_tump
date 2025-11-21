@@ -1,0 +1,289 @@
+@font-face {
+    font-family: "Impact";
+    src: url("../assets/font/ofont.ru_Impact.ttf");
+}
+
+body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5 !important;
+}
+
+.next {
+    font-size: 3.5vw;
+}
+.header {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    width: 80% !important;
+}
+
+.link-nav {
+    text-transform: uppercase;
+      font-family: "Inter", sans-serif !important;
+      font-weight: 300;
+      font-size: medium;
+      font-size: 1.2vw;
+}
+
+.button-end {
+    background-color: #E30033 !important;
+    border: none !important;
+    border-radius: 100px !important;
+    width: 170px;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+@media(max-width: 1200px) {
+    .header-content {
+        width: 90% !important;
+    }
+
+    .button-end {
+        width: 100px;
+        font-size: 1.1vw !important;
+        padding: 5px !important;
+    }
+
+    .logo-img {
+        width: 150px;
+    }
+}
+
+@media(max-width: 768px) {
+    .header-content {
+        width: 97% !important;
+    }
+
+    .button-end {
+        width: 75px;
+    }
+
+    .link-nav {
+        font-size: 1.1vw;
+    }
+
+    .logo-img {
+        width: 100px !important;
+    }
+}
+
+@media(max-width: 568px) {
+    .button-end {
+        width: 40px;
+        font-size: 0.8vw !important;
+    }
+
+    .logo-img {
+        width: 50px !important;
+    }
+
+    .blue {
+        height: 40px !important;
+        width: 100% !important;
+    }
+
+    .link-nav {
+        font-size: 1vw;
+    }
+}
+
+.container-start {
+    background-color: #F5F5F5;
+}
+
+.container-left {
+    margin-left: 10%;
+}
+
+.container-left > h1 {
+    font-family: 'Impact' !important;
+    color: black;
+    font-size: 3.8vw;
+    text-transform: uppercase;
+}
+
+.container-left > p {
+    font-family: "Inter", sans-serif !important;
+    font-size: 1.4vw;
+    color: black;
+}
+
+.blue {
+    background-color: #252C7A;
+    width: 100%;
+    height: 80px;
+}
+
+.container-info {
+    width: 80%;
+}
+
+.container-row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.block-row {
+    width: 20%;
+}
+.header-block > h3 {
+    font-family: "Inter", sans-serif !important;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.3vw;
+}
+
+.header-block > img {
+    width: 30%;
+}
+
+.text-block > p {
+    font-family: "Inter", sans-serif !important;
+    color: black;
+    font-size: 1.2vw;
+}
+
+
+.calc-content {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.block-calc > h1 {
+    color: #252C7A;
+    font-family: "Impact";
+    margin-left: 10%;
+}
+
+
+.calc-left > h3 {
+    font-family: "Inter", sans-serif !important;
+    font-weight: bolder;
+    color: black;
+    font-style: italic;
+    font-size: 1.6vw;
+}
+
+.row-calc > input {
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    padding-left: 5%;
+    background-color: #F5F5F5;
+    color: #8B8B8B;
+    font-family: "Inter", sans-serif !important;
+}
+
+@media (max-width: 768px) {
+    .block-calc > h1 {
+        font-size: 3vw !important;
+    }
+
+    .row-button {
+        width: 20% !important;
+    }
+
+    .btc {
+        width: 1px !important;
+    }
+
+    .text-button {
+        font-size: 0.4vw !important;
+    }
+}
+
+
+
+.line-blocks {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.line-block {
+    border-radius: 12px;
+    width: 24%;
+}
+
+.line-block > p {
+    font-family: "Inter", sans-serif !important;
+    color: black;
+    font-size: 1.1vw;
+}
+
+.choose-blocks {
+    width: 80%;
+    margin: 3% auto;
+}
+
+.choose {
+    width: 47%;
+    background-color: #fff;
+}
+
+.choose-info > h3 {
+    font-family: "Inter", sans-serif !important;
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+}
+
+.choose-info > p {
+    font-family: "Inter", sans-serif !important;
+    color: black;
+    font-size: 1.2vw;
+}
+
+.button-choose {
+    background: none !important;
+    border: solid 1px #E30033 !important;
+    border-radius: 100px !important;
+    width: 100% !important;
+    font-weight: 600 !important;
+    font-size: small !important;
+    text-transform: uppercase;
+    color: #E30033 !important; 
+}
+
+@media(max-width: 1200px) {
+    .choose-img {
+        width: 100% !important;
+    }
+
+    .choose-info > h3 {
+        font-size: 1.5vw;
+    }
+
+    .button-choose {
+        background: none !important;
+        border: solid 1px #E30033 !important;
+        border-radius: 100px !important;
+        font-size: 1.1vw !important;
+        padding: 5px !important;
+        width: 100% !important;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        color: #E30033 !important; 
+    }
+}
+
+.row > .col {
+    font-family: "Inter", sans-serif !important;
+    color: black;
+    font-size: 1.3vw;
+    margin-top: 1%;
+}
+
+.container-footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.start-col {
+    font-size: 1.1vw !important;
+    margin: 0 !important;
+}
