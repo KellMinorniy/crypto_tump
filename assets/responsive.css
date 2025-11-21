@@ -1,0 +1,223 @@
+/* Общие настрои адаптива для всех блоков */
+@media (max-width: 1200px) {
+  .header-content {
+    width: 92% !important;
+  }
+  .logo-img {
+    width: 170px !important;
+  }
+  .link-nav {
+    font-size: 1.15vw !important;
+  }
+  .button-end {
+    width: 150px !important;
+    font-size: 1.05vw !important;
+    padding: 8px 18px !important;
+  }
+  .container-left {
+    margin-left: 7% !important;
+  }
+  .container-left > h1 {
+    font-size: 3.4vw !important;
+  }
+  .container-left > p {
+    font-size: 1.25vw !important;
+  }
+  .container-right {
+    width: 50% !important;
+  }
+  .container-right img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .blue {
+    height: 65px !important;
+  }
+  .next {
+    font-size: 3.4vw !important;
+  }
+  .block-info > p, .header-block > h3, .text-block > p, .choose-info > h3, .choose-info > p, .row > .col, .start-col {
+    font-size: 1.3vw !important;
+  }
+  .block-row {
+    width: 23% !important;
+    height: 190px !important;
+  }
+  .calc-content {
+    width: 90% !important;
+  }
+  .calc-left > h3 {
+    font-size: 1.6vw !important;
+  }
+  .row-calc > input {
+    font-size: 1.15vw !important;
+  }
+  .button-choose {
+    font-size: 1.05vw !important;
+    padding: 7px !important;
+  }
+  .line-block {
+    width: 23% !important;
+  }
+  .line-block > p {
+    font-size: 1.15vw !important;
+  }
+  .choose {
+    width: 45% !important;
+  }
+  .choose-img {
+    width: 100% !important;
+  }
+}
+
+/* Экран до 992px: немного более заметное уменьшение */
+@media (max-width: 992px) {
+  .header-content {
+    width: 94% !important;
+  }
+  .logo-img {
+    width: 140px !important;
+  }
+  .link-nav {
+    font-size: 1.05vw !important;
+  }
+  .button-end {
+    width: 130px !important;
+    font-size: 1vw !important;
+  }
+  .container-left {
+    margin-left: 5% !important;
+  }
+  .container-left > h1 {
+    font-size: 2.9vw !important;
+  }
+  .container-left > p {
+    font-size: 1.1vw !important;
+  }
+  .container-right {
+    width: 50% !important;
+  }
+  .block-row {
+    height: 170px !important;
+    width: 23% !important;
+  }
+  .calc-left > h3 {
+    font-size: 1.4vw !important;
+  }
+  .row-calc > input {
+    font-size: 1.05vw !important;
+  }
+  .button-choose {
+    font-size: 1vw !important;
+    padding: 6px !important;
+  }
+  .line-block {
+    width: 23% !important;
+  }
+  .choose {
+    width: 45% !important;
+  }
+  .choose-img {
+    width: 100% !important;
+  }
+}
+
+/* Экран до 768px: акцент на сохранении читаемости без слишком маленьких размеров */
+@media (max-width: 768px) {
+  .header-content {
+    width: 98% !important;
+  }
+  .logo-img {
+    width: 110px !important;
+  }
+  .link-nav {
+    font-size: 0.95vw !important;
+  }
+  .button-end {
+    width: 115px !important;
+    font-size: 0.95vw !important;
+    padding: 5px 12px !important;
+  }
+  .container-left > h1 {
+    font-size: 2.3vw !important;
+  }
+  .container-left > p {
+    font-size: 0.95vw !important;
+  }
+  .block-row {
+    height: 150px !important;
+    width: 23% !important;
+  }
+  .calc-left > h3 {
+    font-size: 1.25vw !important;
+  }
+  .row-calc > input {
+    font-size: 0.95vw !important;
+  }
+  .button-choose {
+    font-size: 0.9vw !important;
+    padding: 5px !important;
+  }
+  .line-block {
+    width: 23% !important;
+  }
+  .choose {
+    width: 45% !important;
+  }
+  .choose-img {
+    width: 100% !important;
+  }
+}
+
+/* Для узких экранов от 480px до 767px: оставляем комфортный размер шрифтов и кнопок */
+@media (max-width: 480px) {
+  .header-content {
+    width: 100% !important;
+  }
+  .logo-img {
+    width: 90px !important;
+  }
+  .link-nav {
+    font-size: 0.8vw !important;
+  }
+  .button-end {
+    width: 90px !important;
+    font-size: 0.85vw !important;
+    padding: 4px 8px !important;
+  }
+  .container-left > h1 {
+    font-size: 1.8vw !important;
+  }
+  .container-left > p {
+    font-size: 0.75vw !important;
+  }
+  .block-row {
+    height: 130px !important;
+    width: 23% !important;
+  }
+  .calc-left > h3 {
+    font-size: 1vw !important;
+  }
+  .row-calc > input {
+    font-size: 0.85vw !important;
+  }
+  .button-choose {
+    font-size: 0.8vw !important;
+    padding: 3px !important;
+  }
+  .line-block {
+    width: 23% !important;
+  }
+  .choose {
+    width: 45% !important;
+  }
+  .choose-img {
+    width: 100% !important;
+  }
+  .next {
+    font-size: 2.2vw !important;
+  }
+  .blue {
+    height: 40px !important;
+  }
+}

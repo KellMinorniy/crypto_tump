@@ -38,59 +38,10 @@ body, html {
     text-transform: uppercase;
 }
 
-@media(max-width: 1200px) {
-    .header-content {
-        width: 90% !important;
-    }
 
-    .button-end {
-        width: 100px;
-        font-size: 1.1vw !important;
-        padding: 5px !important;
-    }
 
-    .logo-img {
-        width: 150px;
-    }
-}
 
-@media(max-width: 768px) {
-    .header-content {
-        width: 97% !important;
-    }
 
-    .button-end {
-        width: 75px;
-    }
-
-    .link-nav {
-        font-size: 1.1vw;
-    }
-
-    .logo-img {
-        width: 100px !important;
-    }
-}
-
-@media(max-width: 568px) {
-    .button-end {
-        width: 40px;
-        font-size: 0.8vw !important;
-    }
-
-    .logo-img {
-        width: 50px !important;
-    }
-
-    .blue {
-        height: 40px !important;
-        width: 100% !important;
-    }
-
-    .link-nav {
-        font-size: 1vw;
-    }
-}
 
 .container-start {
     background-color: #F5F5F5;
@@ -179,23 +130,6 @@ body, html {
     font-family: "Inter", sans-serif !important;
 }
 
-@media (max-width: 768px) {
-    .block-calc > h1 {
-        font-size: 3vw !important;
-    }
-
-    .row-button {
-        width: 20% !important;
-    }
-
-    .btc {
-        width: 1px !important;
-    }
-
-    .text-button {
-        font-size: 0.4vw !important;
-    }
-}
 
 
 
@@ -249,27 +183,6 @@ body, html {
     color: #E30033 !important; 
 }
 
-@media(max-width: 1200px) {
-    .choose-img {
-        width: 100% !important;
-    }
-
-    .choose-info > h3 {
-        font-size: 1.5vw;
-    }
-
-    .button-choose {
-        background: none !important;
-        border: solid 1px #E30033 !important;
-        border-radius: 100px !important;
-        font-size: 1.1vw !important;
-        padding: 5px !important;
-        width: 100% !important;
-        font-weight: 600 !important;
-        text-transform: uppercase;
-        color: #E30033 !important; 
-    }
-}
 
 .row > .col {
     font-family: "Inter", sans-serif !important;
